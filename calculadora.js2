@@ -21,17 +21,17 @@ switch(opcao){
     console.log(resultado2)
     
     break;
-    case "3"://dividir
+    case "3"://mutiplicação
     let n5 = Number(prompt ("Digite um número:"))
       let n6 = Number(prompt ("Digite outro número:"))
-        let resultado3 = n5/n6;
+        let resultado3 = n5*n6;
     console.log(resultado3)
     
     break;
-    case "4"://multiplicação
+    case "4"://divisão
     let n7 = Number(prompt ("Digite um número:"))
       let n8 = Number(prompt ("Digite outro número:"))
-        let resultado4 = n7*n8;
+        let resultado4 = n7/n8;
     console.log(resultado4)
     
   default:
